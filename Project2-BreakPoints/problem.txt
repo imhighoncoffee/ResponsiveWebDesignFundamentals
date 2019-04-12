@@ -1,0 +1,6 @@
+Media queries can get complex, especially when they start overlapping like what we're got here. Let's go ahead and step through each part step by step.
+
+AA applies from 0 to 300, and also from 300 to 400. This makes its maximum width 400 pixels.
+BB starts at 301 pixels, so we set its minimum width to 301, and it goes all the way to 600 pixels (its maximum width).
+CC starts at 601 pixels, so we say it has a minimum width of 601 pixels. And, it doesn't have to end -- so there is no maximum width.
+DD seems to be the same as CC, except it starts at 961 pixels.
