@@ -69,9 +69,25 @@
         width: 100%;
       }
 
-      @media screen and (max-width: 400px) {
-        .dark_blue {
-          color: blue;
+      @media screen and (min-width: 450px) {
+        .light_blue, .green {
+          width: 50%;
+        }
+      }
+      @media screen and (min-width: 550px) {
+        .orange {
+          width: 67%;
+        }
+        .red {
+          width: 33%;
+        }
+      }
+
+      @media screen and (min-width: 800px) {
+        .container {
+          width: 800px;
+          margin-left: auto;
+          margin-right: auto;
         }
       }
     </style>
